@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>website kelompok</title>
+	<style>
+		
+/*untuk css class, menggunakan "."*/
+/*untuk css id, menggunakan "#"*/
+/*untuk css universal, menggunakan "*"*/
+
+		.form{
+			font-family: arial;
+			background-color: lightgray;
+			width: 700px;
+		}
+		.head{
+			font-family: arial;
+			background-color: darkcyan;
+			width: 700px;
+		}
+	</style>
+</head>
+<body>
+	<div class="head">
+		<center>
+			<h1>
+				Bimbingan Belajar
+			</h1>
+		</center>
+	</div>
+	<div class="form">
+		<form action="" method="GET">
+			<h2>
+				<center>Formulir Pendaftaran</center> 
+			</h2>	
+			<table border="1">
+				<tr>
+					<td>
+						Nama
+					</td>
+					<td width="40px" align="right">
+						:
+					</td>
+					<td>
+						<textarea rows="1" cols="69" name="Nama"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Tanggal lahir
+					</td>
+					<td width="40px" align="right">
+						:
+					</td>
+					<td>
+						<input type="date" name="Tanggal_lahir">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Jenis Kelamin
+					</td>
+					<td width="40px" align="right">
+						:
+					</td>
+					<td>
+						<input type="radio" name="Jenis_Kelamin" value="Laki-laki">Laki-laki
+						<input type="radio" name="Jenis_Kelamin" value="Perempuan">Perempuan
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Agama
+					</td>
+					<td width="40px" align="right">
+						:
+					</td>
+					<td>
+						<textarea rows="1" cols="69" name="Agama"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Telp/HP
+					</td>
+					<td width="40px" align="right">
+						:
+					</td>
+					<td>
+						<input type="tel" name="telp" placeholder="08XXXXXX">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Alamat
+					</td>
+					<td width="40px" align="right">
+						:
+					</td>
+					<td>
+						<textarea cols="69" rows="1" name="Alamat"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Asal Sekolah
+					</td>
+					<td width="40px" align="right">
+						:
+					</td>
+					<td>
+						<textarea rows="1" cols="69" name="Asal_Sekolah"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Kelas
+					</td>
+					<td width="40px" align="right">
+						:
+					</td>
+					<td>
+						<input type="radio" name="Kelas">X
+						<input type="radio" name="Kelas">XI
+						<input type="radio" name="Kelas">XII )
+						Program :
+						<input type="radio" name="Program">IPA
+						<input type="radio" name="Program">IPS
+						lainnya:
+						<input type="text" name="Program">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Nama ayah
+					</td>
+					<td width="40px" align="right">
+						:
+					</td>
+					<td>
+						<textarea rows="1" cols="69" id="Nama_ayah" name="Nama_ayah"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Nama ibu
+					</td>
+					<td width="40px" align="right">
+						:
+					</td>
+					<td>
+						<textarea rows="1" cols="69" id="Nama_ibu" name="Nama_ibu"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Telp/HP orang tua
+					</td>
+					<td width="40px" align="right">
+						:
+					</td>
+					<td>
+						<input type="tel" id="telp_ortu" name="telp_ortu"placeholder="08XXXXXX">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>
